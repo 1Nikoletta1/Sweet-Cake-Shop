@@ -1,0 +1,684 @@
+@font-face {
+    font-family: Fonesia; /* Гарнитура шрифта */
+    src: url(../fonts/CATHSGBR.eot); /* Для IE5-8 */
+    src: local(Fonesia), url(../fonts/Fonesia.ttf); /* Для остальных браузеров */
+   }
+
+@font-face {
+    font-family: Fonesia-Light; /* Гарнитура шрифта */
+    src: url(../fonts/CATHSGBR.eot); /* Для IE5-8 */
+    src: local(Fonesia-Light), url(../fonts/Fonesia-Light.ttf); /* Для остальных браузеров */
+   }
+
+@font-face {
+    font-family: Economica; /* Гарнитура шрифта */
+    src: url(../fonts/CATHSGBR.eot); /* Для IE5-8 */
+    src: local(Economica), url(../fonts/Economica.otf); /* Для остальных браузеров */
+   }
+
+@font-face {
+    font-family: Gandhi; /* Гарнитура шрифта */
+    src: url(../fonts/CATHSGBR.eot); /* Для IE5-8 */
+    src: local(Gandhi), url(../fonts/Gandhi.otf); /* Для остальных браузеров */
+   }
+
+body {
+	display: block;
+	margin: 0;
+}
+
+.wrapper {
+    /*background-color: #252222;*/
+    background-color: #FFFFFF;
+}
+
+.preheader {
+    display: inline-block; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #252222;
+}
+
+.preheader li {
+    list-style: none;
+}
+
+#pull-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.mainImage {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+    height: 750px;
+    margin-top: -5px;
+}
+
+nav {
+    display: block;
+	width: 100%;
+	height: 60px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+    list-style: none;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+    font-family: Fonesia, sans-serif;
+}
+
+nav li a {
+	color:  #ffffff;
+	font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    text-shadow: rgb(214,143,149) 6px 6px 6px;
+}
+
+#mainTitle {
+	position: relative;
+	top: 250px;
+	text-align: center;
+}
+
+#mainTitle h1 {
+	font-size: 105px;
+    color: #ffffff;
+    margin: 0;
+    font-family: Fonesia, sans-serif;
+    text-shadow: rgb(214,143,149) 5px 5px 7px;
+}
+
+#mainTitle p {
+	font-size: 30px;
+    color: #ffffff;
+    margin: 0;
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 2px;
+}
+
+.slideUp{
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;    
+
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;
+
+    visibility: visible !important;         
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateY(-8%);
+    }
+    65%{
+        transform: translateY(4%);
+    }
+    80%{
+        transform: translateY(-4%);
+    }
+    95%{
+        transform: translateY(2%);
+    }           
+    100% {
+        transform: translateY(0%);
+    }   
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    50%{
+        -webkit-transform: translateY(-8%);
+    }
+    65%{
+        -webkit-transform: translateY(4%);
+    }
+    80%{
+        -webkit-transform: translateY(-4%);
+    }
+    95%{
+        -webkit-transform: translateY(2%);
+    }           
+    100% {
+        -webkit-transform: translateY(0%);
+    }   
+}
+
+.arrow-down {
+    display: block;
+    text-align: center;  
+    margin: 20px;
+}
+
+.arrow-down img {
+    width: 60px;
+    height: 60px;
+}
+
+.OurServices {
+    width: 100%;
+    height: auto;
+    /*background-color: rgb(251,250,239);*/
+    background-image: url(../images//heart-coffee-beans.jpg);
+    background-repeat: no-repeat;
+}
+
+.OurServices h2 {
+    color: #fff;
+}
+
+.OurServices section {
+    text-align: center; 
+}
+
+.OurServices section:last-child {
+    margin-top: -50px;
+    padding-bottom: 30px;
+}
+
+ .OurServices  button{
+    border-color: rgb(27,31,33);;
+}
+
+.OurServices  button a {
+    color: rgb(27,31,33);;
+}
+
+.OurServices figure {
+    display: inline-table;
+    width: 25%;
+    height: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.OurServices figure figure {
+    width: 160px;
+    height: 160px;
+    background: #7fee1d;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 110px;
+    background-color: #E9B497;
+    padding: 30px 20px 10px 20px;
+}
+
+.OurServices figcaption {
+    padding: 20px;
+    font-family: Gandhi;
+    font-size: 18px;
+    color: #fff;
+}
+
+.infoPortal {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.infoPortal article {
+    margin: 80px 150px 20px 200px;
+}
+
+.infoPortal article p{
+    color: rgb(27,31,33);
+    font-family: Gandhi, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0 10px 0;
+}
+
+.infoPortal article p span {
+    color: rgb(27,31,33);
+    font-family: bold Gandhi, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0 10px 0;
+}
+
+.WhoWeAre {
+    width: 100%;
+    height: auto;
+/*  background-color: rgb(251,250,239); 
+    border-bottom: 1px solid #ccc;*/
+    /*background-image: url(../images//heart-coffee-beans.jpg);
+    background-repeat: no-repeat;*/
+}
+
+.WhoWeAre section {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.WhoWeAre h3 {   
+    color: rgb(27,31,33);
+    font-family: Economica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.WhoWeAre p, .BestCakes p{   
+    color: rgb(27,31,33);
+    font-family: Gandhi, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.BestCakes {
+    display: block;
+    height: auto;
+    width: 100%;
+    /*background-color: #252222;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-color: rgb(251,250,239); 
+    border-bottom: 1px solid #ccc;*/
+}
+
+.BestCakes section {
+    text-align: center;
+}
+
+.BestCakes header, section, ul, li, figure, img {
+    margin: 0;
+    padding: 0;
+}
+
+.BestCakes li {
+    display: inline-block;
+}
+
+section.border button {
+    color: #fff;
+    background: rgba(0,0,0,0);
+    border: solid 3px #fff;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+section.border button:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+section.border button:active {
+    border-color: #fff;
+    color: #fff;
+}
+
+section.border button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#color button{
+    border-color: rgb(27,31,33);;
+}
+
+#color button a {
+    color: rgb(27,31,33);;
+}
+
+/*.OrderCake {
+    display: block;
+    height: auto;
+    width: 100%;
+    background-image: url(../images/bgCreateCake2.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.centerTitle {
+    text-align: center;
+}
+
+.centerTitle #border {
+    border-bottom: 2px solid rgb(27,31,33);
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+    margin-left: 325px;
+}
+
+.mainFooter {
+    clear: both;
+    position: relative;
+    background-color: #252222;
+    height: 200px;
+    width: 100%;
+}
+
+.mainFooter ul {
+    margin-left: 50px;
+}
+
+.mainFooter li {
+    list-style: none;
+    margin: 10px 0 10px 0;
+}
+
+.mainFooter a {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 2px;
+}
+
+.mainFooter a:hover {
+    text-decoration: none;
+    text-shadow: rgb(214,143,149) 6px 6px 6px;
+}
+
+.mainFooter p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#emailInput {
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: #252222;
+    color: #ffffff;
+}
+
+/*#signUpButton {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #252222;
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#signUpButton:hover { 
+    background: rgb(232,83,86);
+    color: #333333;
+}
+
+#signUpButton:active {
+    background: rgb(232,83,86);
+}*/
+
+hr {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.postFooter {
+    width: 100%;
+    height: 30px;
+    background-color: #252222;
+    position: relative;
+    margin-top: -15px;
+}
+
+.postFooter p{
+    color: #ffffff;
+    font-size: 10px;
+    font: sans-serif;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    padding-top: 6px;
+}
+
+#contacts {
+    margin-right: 50px;
+}
+
+#contacts li{
+    display: inline;
+    padding: 10px;
+}
+
+#contacts img{
+    width: 35px;
+    height: 35px;
+    margin: 0;    
+}
+
+#contacts img:hover {
+    animation-name: floating;
+    -webkit-animation-name: floating;
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0%);  
+    }
+    50% {
+        transform: translateY(8%);  
+    }   
+    100% {
+        transform: translateY(0%);
+    }           
+}
+
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translateY(0%);  
+    }
+    50% {
+        -webkit-transform: translateY(8%);  
+    }   
+    100% {
+        -webkit-transform: translateY(0%);
+    }           
+}
+
+.QuickLinks, .SingUp {
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+}
+
+.ContactsLinks, .ContactUs {
+    width: 30%;
+    float: left;
+    margin-top: 15px;
+}
+
+.mainFooter .form-style-contact ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.ContactUs ul {
+    margin-left: 0;
+}
+
+.title {
+    position: relative;
+    font-size: 50px;
+    /*color: #ffffff;*/
+    /*color: #9f857c;*/
+    color: rgb(27,31,33);
+    font-family: Economica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 0;
+    padding: 30px 0 20px 0;
+}
+
+.arrow-top img{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.form-style-contact  figure{
+    float: left;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.form-style-contact img {
+    width: 470px;
+    height: 500px;
+    padding: 50px;
+}
+
+.form-style-contact form {
+    width: 50%;
+    float: left;
+}
+
+.form-style-contact ul{
+    margin:10px auto;
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 15px Gandhi, sans-serif;
+    float: left;
+    padding: 50px;
+}
+
+.form-style-contact li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-contact label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+
+.form-style-contact input[type=text], 
+.form-style-contact input[type=date],
+.form-style-contact input[type=datetime],
+.form-style-contact input[type=number],
+.form-style-contact input[type=search],
+.form-style-contact input[type=time],
+.form-style-contact input[type=url],
+.form-style-contact input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+
+.form-style-contact input[type=text]:focus, 
+.form-style-contact input[type=date]:focus,
+.form-style-contact input[type=datetime]:focus,
+.form-style-contact input[type=number]:focus,
+.form-style-contact input[type=search]:focus,
+.form-style-contact input[type=time]:focus,
+.form-style-contact input[type=url]:focus,
+.form-style-contact input[type=email]:focus,
+.form-style-contact textarea:focus, 
+.form-style-contact select:focus{
+    -moz-box-shadow: 0 0 8px rgb(206,123,122);
+    -webkit-box-shadow: 0 0 8px rgb(206,123,122);
+    box-shadow: 0 0 8px rgb(206,123,122);
+    border: 1px solid rgb(218,146,143);
+}
+
+.form-style-contact .field-divided{
+    width: 49%;
+}
+
+.form-style-contact .field-long{
+    width: 100%;
+}
+
+.form-style-contact .field-select{
+    width: 100%;
+}
+
+.form-style-contact .field-textarea{
+    height: 100px;
+}
+
+.form-style-contact input[type=submit], .form-style-contact input[type=button]{
+    background: rgb(206,116,121);
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+.form-style-contact input[type=submit]:hover, .form-style-contact input[type=button]:hover{
+    background: rgb(123,23,57);
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    cursor: pointer;
+}
+
+.form-style-contact .required{
+    color:red;
+}
+
+#nav-services {
+    background-color: #252222; 
+}
+
+.orderMain {
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+}

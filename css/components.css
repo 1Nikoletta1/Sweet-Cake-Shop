@@ -1,0 +1,174 @@
+.components {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: block;
+    background-color: #252222;
+    position: relative;
+}
+
+.item {
+    text-align:center;
+    position:relative;          
+}       
+
+.item-hover,
+.item-hover .mask,
+.item-img { 
+    position:absolute;
+    top:0;
+    left:0;         
+}           
+
+.item-type-line .item-hover {   
+    z-index:100;    
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out; 
+    opacity:0;
+    cursor:pointer;                     
+    display:block;
+    text-decoration:none;
+    text-align:center;
+}
+
+.item-type-line .item-info {
+    z-index:10;
+    color:#ffffff;
+    display:table-cell;
+    vertical-align:middle;
+    position:relative;
+    z-index:5;                                  
+}
+
+.item-type-line .item-info .headline {
+    font-size:20px;  
+    font-family: Gandhi;               
+}
+
+.item-type-line .item-info .line {
+     height:1px;
+     width:0%;
+     margin:15px auto;
+     background-color:#ffffff;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;                  
+}
+
+.item-type-line .item-info .description {
+    font-size:12px;
+    font-family: Gandhi;
+}
+
+.item-type-line .item-hover .mask {
+    background-color:#000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);                                      
+    opacity:0.5;
+    z-index:0;
+}
+
+.item-type-line .item-hover:hover .line {
+    width:40%;
+}
+
+.item-type-line .item-hover:hover {
+    opacity:1;
+}               
+
+.item-img {                     
+    z-index:0;          
+}
+
+.best2, .best2 .item-hover,
+.best2 .item-hover .mask,
+.best2 .item-img,
+.best2 .item-info {
+    width: 400px;
+    height: 300px;
+    margin: 0;
+}
+
+.best4,
+.best4 .item-hover,
+.best4 .item-hover .mask,
+.best4 .item-img,
+.best4 .item-info {
+    width: 350px;
+    height: 300px;
+}
+
+.best3,
+.best3 .item-hover,
+.best3 .item-hover .mask,
+.best3 .item-img,
+.best3 .item-info {
+    width: 400px;
+    height: 300px;
+}
+
+.best9,
+.best9 .item-hover,
+.best9 .item-hover .mask,
+.best9 .item-img,
+.best9 .item-info {
+    width: 300px;
+    height: 450px;
+}
+
+.best1,
+.best1 .item-hover,
+.best1 .item-hover .mask,
+.best1 .item-img,
+.best1 .item-info {
+    width: 550px;
+    height: 450px;
+}
+
+.best6,
+.best6 .item-hover,
+.best6 .item-hover .mask,
+.best6 .item-img,
+.best6 .item-info {
+    width: 300px;
+    height: 450px;
+}
+
+.best5,
+.best5 .item-hover,
+.best5 .item-hover .mask,
+.best5 .item-img,
+.best5 .item-info {
+    width: 425px;
+    height: 370px;
+}
+
+.best7,
+.best7 .item-hover,
+.best7 .item-hover .mask,
+.best7 .item-img,
+.best7 .item-info {
+    width: 300px;
+    height: 370px;
+}
+
+.best8,
+.best8 .item-hover,
+.best8 .item-hover .mask,
+.best8 .item-img,
+.best8 .item-info {
+    width: 425px;
+    height: 370px;
+}
+
+.mainComponent,
+.mainComponent .item-hover,
+.mainComponent .item-hover .mask,
+.mainComponent .item-img,
+.mainComponent .item-info {
+    width: 230px;
+    height: 160px;
+}

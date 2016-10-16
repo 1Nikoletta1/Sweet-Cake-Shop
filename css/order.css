@@ -1,0 +1,160 @@
+form {
+	display: block;
+}
+
+hr {
+	color: white;
+}
+
+#contactInfoForm, #cakeInfoForm, #decorateInfoForm, #price  {
+	display: inline-block;
+/*	border: 1px solid #ffffff;*/
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#descriptionInfoForm {
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+#form {	
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+#form div {
+	width: 60%;
+}
+
+#formTitle h2{
+	color: #9f857c;
+    font-size: 30px;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#contactInfoForm, #cakeInfoForm {
+	width: 20%;
+	height: 370px;
+	background-color: #E4925D;
+}
+
+#decorateInfoForm {
+	width: 35%;
+	height: 370px;
+	background-color: #C6C479;
+}
+
+#price {
+	width: 25%;
+	height: 370px;
+	background-color: #C67579;
+}
+
+#descriptionInfoForm {
+	width: 100%;
+	height: 250px;
+}
+
+#descriptionInfoForm input {
+	width: 60%;
+	background-color: #7ED2DE;
+	font-size: 17px;
+}
+
+h2 {
+	color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 0 0 10px 0
+}
+
+p {
+	color: #ffffff;
+    font-size: 14px;
+    /*text-transform: uppercase;*/
+    font-family: Fonesia-Light, sans-serif;
+    letter-spacing: 1px;
+    margin: 15px 0 15px 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+#contactInfoForm input,
+#cakeInfoForm input {
+	width: 150px;
+	height: 25px;
+	border-radius: 8px;
+	background-color: #E4925D;
+	color: #ffffff;
+	font-size: 17px;
+}
+
+datalist {
+	color: #ffffff;
+}
+
+option {
+	background-color: #252222;
+	color: #ffffff;
+}
+
+.submit {
+	width: 100%;
+	text-align: center;
+	background-color: #7ED2DE;
+}
+
+.submit input{
+	width: 120px;
+	height: 40px;
+	border-radius: 8px;
+	background-color: #C6C479;
+	color: #ffffff;
+	font-size: 10px;
+    text-transform: uppercase;
+    font-family: Fonesia, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #E4925D;
+    margin-bottom: 10px;
+}
+
+#decorateInfoForm section section {
+	float: left;
+}
+
+#decorateInfoForm section aside {
+	float: right;
+	padding-right: 30px;
+}
+
+#decorateInfoForm section div {
+	float: left;
+}
+
+#price li {
+	list-style: none;
+}
+
+#commentsToOrder {
+	width: 95%;
+	height: 150px;
+	border-radius: 8px;
+	/*background-color: #252222;*/
+	color: #ffffff;
+}
